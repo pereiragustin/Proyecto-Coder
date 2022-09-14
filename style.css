@@ -8,14 +8,45 @@
 }
 
 
-
 nav {
-    
-    background-image: url(./pages/img/img4.jpg);
-    background-size: cover;
-    background-position: 100%;
-    height: 500px;
+    display: flex;
+    flex-direction: column;
 }
+
+#navbarCollapse {
+    display: flex;
+
+    flex-direction: column;
+    
+}
+
+
+
+ 
+
+
+
+.slider img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.slider {
+    width: 95%;
+    margin: auto;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0%;
+    width: 4000%;
+}
+
+.slider li {
+
+    list-style: none;
+}
+
 
 
 .menu {
@@ -84,30 +115,9 @@ background-position: center center;
  
 
 
-nav ul li {
-
-    font-size: 20px;
-    display: inline;
-    font-weight:bold;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center ;
-   margin-right: 0%;
-
-
-}
 
 
 
-.luciano{
-    
-    text-align: center;
-    
-}
-.martin  {
-
-    
-    text-align: center;
-}
 
 main img {
     border-radius: 100px;
@@ -134,10 +144,7 @@ height: 1000px;
 
 
 
-main h1 {
 
-    
-}
 
 
 
@@ -324,6 +331,10 @@ main {
 }
 
 
-
+#card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
