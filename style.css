@@ -20,9 +20,9 @@ nav {
     
 }
 
+.container-fluid  { 
 
-
- 
+}
 
 
 
@@ -130,7 +130,8 @@ main {
    background-image: url(./pages/img/img5.jpg);
 background-size: cover;
 background-position: 100%;
-height: 1000px;
+height: 1300px;
+
 
 }
 
@@ -174,7 +175,7 @@ footer {
 
 
 
-button { 
+buttons { 
     font-size: 1.5em;
     font-weight: bold;
     padding: 10px 30px ;
@@ -298,16 +299,6 @@ main {
 
 }
 
-#img2:hover {
-    border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  animation-name: example;
-  animation-duration: 0.25s;
-  border-left: 8px solid rgb(25, 23, 23);
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 40px 40px rgba(0,0,0,0.22);
-}
-
-
 #img3 {
     
     grid-area: img1;   
@@ -321,6 +312,17 @@ main {
 
 }
 
+#img2:hover {
+    border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 8px solid rgb(25, 23, 23);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 40px 40px rgba(0,0,0,0.22);
+}
+
+
+
 #img3:hover {
     border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
@@ -331,10 +333,14 @@ main {
 }
 
 
-#card {
+.card {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+
 }
+
+
 
 
