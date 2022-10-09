@@ -1,17 +1,4 @@
-.mundo {
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    position: relative;
-    bottom: -300px;
-    height: 300px;
-background-size: cover;
-background-position: 100%;
-height: 20%;
-}
 
 
 #texto {
@@ -28,9 +15,95 @@ header {
     }
 }
 
-#mainindex {
-    height: 700px;
+
+#mainindex { 
+    margin: auto;
+  box-sizing: border-box;
+  padding: 0%;
+  background-image: url(../pages/img/v748-toon-111.jpg);
+  background-size: contain;
+  background-position: 100%;
+  height: 800px;
+  display: grid;
+
+  
+ }
+ 
+ 
+
+
+#container
+{
+padding-top: 20px;
+   margin: 20px;
+   padding-bottom: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+  
+}
+
+
+.carousel-item {
+    img {
+
+    height: 550px;
+    width: 450px;
+    object-fit: cover;
+    
+         }
+        
+ p {
+    color: rgb(3, 3, 3);
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow: -2px -2px 5px rgb(248, 247, 247);
+    
+ }
+ h5 {
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    font-size: xx-large;
+    text-shadow: 2px 2px 5px rgb(250, 250, 250);
+ }
 }
 
 
 
+.mundo {
+    min-width: 250px;
+margin-bottom: 0%;
+margin: 0%;
+background-size: contain;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+
+h4 {
+  margin-bottom: 7%;
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+  font-size: x-large;
+  text-shadow: 2px 2px 5px rgb(102, 98, 98);
+}
+
+h5 {
+   margin-bottom: 7%;
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+  font-size: x-large;
+  text-shadow: 2px 2px 5px rgb(102, 98, 98);
+}
+
+h3 {
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+  font-size: x-large;
+  text-shadow: 2px 2px 5px rgb(102, 98, 98);
+}
+h1 {
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+  font-size: xx-large;
+  text-shadow: 2px 2px 5px rgb(175, 173, 189);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+}
